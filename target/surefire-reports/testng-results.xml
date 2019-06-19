@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="38617" started-at="2019-06-11T19:44:46 PKT" finished-at="2019-06-11T19:45:25 PKT">
+    <groups>
+    </groups>
+    <test name="D:/Automation/git/AdactinTestNG/src/test/java/regressionTest" duration-ms="38617" started-at="2019-06-11T19:44:46 PKT" finished-at="2019-06-11T19:45:25 PKT">
+      <class name="regressionTest.SelectHotelTest">
+        <test-method status="PASS" signature="SelectHotelTest()[pri:0, instance:regressionTest.SelectHotelTest@cb5822]" name="SelectHotelTest" duration-ms="13913" started-at="2019-06-11T19:45:11 PKT" finished-at="2019-06-11T19:45:25 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectHotelTest -->
+      </class> <!-- regressionTest.SelectHotelTest -->
+      <class name="regressionTest.SearchHotelTest">
+        <test-method status="PASS" signature="HotelSearchTest()[pri:0, instance:regressionTest.SearchHotelTest@18be83e4]" name="HotelSearchTest" duration-ms="11808" started-at="2019-06-11T19:44:59 PKT" finished-at="2019-06-11T19:45:11 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelSearchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:regressionTest.SearchHotelTest@18be83e4]" name="tearDown" is-config="true" duration-ms="250" started-at="2019-06-11T19:45:11 PKT" finished-at="2019-06-11T19:45:11 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- regressionTest.SearchHotelTest -->
+      <class name="regressionTest.LoginTest">
+        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:regressionTest.LoginTest@8bd1b6a]" name="invalidLogin" duration-ms="9336" started-at="2019-06-11T19:44:47 PKT" finished-at="2019-06-11T19:44:56 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="validLogin()[pri:1, instance:regressionTest.LoginTest@8bd1b6a]" name="validLogin" duration-ms="2264" started-at="2019-06-11T19:44:56 PKT" finished-at="2019-06-11T19:44:58 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="Logout()[pri:10, instance:regressionTest.LoginTest@8bd1b6a]" name="Logout" duration-ms="960" started-at="2019-06-11T19:44:58 PKT" depends-on-methods="regressionTest.LoginTest.validLogin" finished-at="2019-06-11T19:44:59 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- regressionTest.LoginTest -->
+    </test> <!-- D:/Automation/git/AdactinTestNG/src/test/java/regressionTest -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
