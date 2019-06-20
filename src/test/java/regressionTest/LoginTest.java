@@ -15,7 +15,7 @@ public class LoginTest {
 //    public static WebDriver driver;
     //Login log = new Login(driver);
     String userName = "sajidmanzoor";
-    String invalidUser = "sajidmanzoorrr";
+    String invalidUser = "sajid";
     String password = "webdir123R";
    TestNGAnnotations chrome = new TestNGAnnotations();
 
